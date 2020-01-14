@@ -3,12 +3,12 @@ Este arquivo é para Ensinar a utilizar o pluguin NGX-MASK para aplicar máscara
 Link Referência (documentação): https://www.npmjs.com/package/ngx-mask
 
 Passos:
-1 - Abra seu terminal na pasta do projeto em IONIC ou ANGULAR, e execute o comando 'npm install --save ngx-mask';
-2 - Vá na página 'nomedapagina.module.ts' (você precisa importar no modulo de cada pagina que você vai utilizar esse pluguin, não precisa importar no app.module.ts)
-3 - Nessa página cole o trecho: " import { NgxMaskModule } from 'ngx-mask'; "
-4 - Depois no mesmo arquivo cole, no @NgModule({ imports: [ NgxMaskModule.forRoot({validation: true}) ] })
-5 - Agora já está tudo pronto para usar a máscara, então abra o arquivo HTML que irá utilizar esse pluguin (nomedapagina.component.html
-6 - No HTML no ion-input defina ele como ' type="text" ' e cole o atributo ' mask="000.000.000-00 '
+1 - Abra seu terminal na pasta do projeto em IONIC ou ANGULAR, e execute o comando 'npm install --save ngx-mask'; <br>
+2 - Vá na página 'nomedapagina.module.ts' (você precisa importar no modulo de cada pagina que você vai utilizar esse pluguin, não precisa importar no app.module.ts) <br>
+3 - Nessa página cole o trecho: " import { NgxMaskModule } from 'ngx-mask'; " <br>
+4 - Depois no mesmo arquivo cole, no @NgModule({ imports: [ NgxMaskModule.forRoot({validation: true}) ] }) <br>
+5 - Agora já está tudo pronto para usar a máscara, então abra o arquivo HTML que irá utilizar esse pluguin (nomedapagina.component.html <br>
+6 - No HTML no ion-input defina ele como ' type="text" ' e cole o atributo ' mask="000.000.000-00 ' <br>
 
 7 - Alguns exemplo de ion-input:
 
