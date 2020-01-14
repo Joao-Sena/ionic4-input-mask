@@ -8,7 +8,7 @@ Passos:
 3 - Nessa página cole o trecho: " import { NgxMaskModule } from 'ngx-mask'; "
 4 - Depois no mesmo arquivo cole, no @NgModule({ imports: [ NgxMaskModule.forRoot({validation: true}) ] })
 5 - Agora já está tudo pronto para usar a máscara, então abra o arquivo HTML que irá utilizar esse pluguin (nomedapagina.component.html
-6 - No HTML no <ion-input> defina ele como ' type="text" ' e cole o atributo ' mask="000.000.000-00 '
+6 - No HTML no <<ion-input>> defina ele como ' type="text" ' e cole o atributo ' mask="000.000.000-00 '
 
 7 - Alguns exemplo de <ion-inputs>:
 
