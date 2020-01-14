@@ -1,4 +1,4 @@
-Este arquivo é para Ensinar a utilizar o pluguin NGX-MASK para aplicar máscaras em <ion-inputs>
+Este arquivo é para Ensinar a utilizar o pluguin NGX-MASK para aplicar máscaras em ion-input
 
 Link Referência (documentação): https://www.npmjs.com/package/ngx-mask
 
